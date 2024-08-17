@@ -1,0 +1,1193 @@
+/*Basic Layout Styles--------------------------------------------------------------------*/
+
+html {
+    /*background-color: rgb(234, 222, 222);  */
+    background: linear-gradient(to bottom right, rgb(231, 222, 222), rgb(216, 194, 159));
+}
+
+header {
+    background-color: rgb(100, 98, 102);
+    padding-top: 2px;
+    margin-bottom: 1px;
+
+
+
+}
+
+/*4*vo ovoj del upotrebiv Monsterrat font koj ke se nanesi na site ostanati  elementi*/
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: normal;
+
+
+}
+
+/*5 za site sekcii 20px*/
+section {
+    margin-top:89px;
+    margin-bottom: 45px;
+    
+    
+
+}
+
+
+
+/*4*staveno e prored i dvojno podreduvanje*/
+section p {
+    text-indent: 35px;
+    line-height: 1.7em;
+    
+    
+
+}
+
+/*4*dodavanje dekoracii*/
+section a {
+    text-decoration: none;
+    
+
+}
+
+
+article {
+    float: right;
+    border: 3px;
+    text-align: justify;
+    border-style: dotted;
+    padding: 5px;
+    margin-bottom: 45px;
+    border-radius: 25px;
+
+}
+
+aside {
+    float: right;
+    border: 3px;
+    border-style: dashed;
+    width: 350px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    background-image: url("../shoes/Galery_images/cloud.jpg");
+    opacity: 0.85;
+
+}
+
+/*za prvata bukva od pasusot da e golema */
+section p:nth-child(1n):first-letter {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 34px;
+
+}
+
+footer {
+
+    background-color: rgb(131, 97, 97);
+    padding: 5px;
+    clear: both;
+    height: 380px;
+    margin-top: 5px; 
+    
+
+}
+
+
+
+/* CSS styles for  navigation menu---------------------------------------------------------------------------*/
+
+
+.menu_bar {
+
+    background-color: rgba(245, 161, 6, 0.954);
+    text-align: center;
+
+}
+
+.menu_bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(206, 74, 186); 
+
+
+}
+
+
+.menu_bar ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.menu_bar ul li a {
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*4*site linkovi da bidat so golemi bukvi i bez dekoracii*/
+/*
+.menu_bar a:link {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+*/
+
+
+/*4* visited link */
+
+
+/*
+.menu_bar a:visited {
+    color: #999;
+    text-decoration: none;
+}
+*/
+
+/*4*hover*/
+
+
+/*
+.menu_bar a:hover {
+    text-decoration: underline;
+    color: #4af;
+}
+
+*/
+
+/*4* selected link */
+
+/*
+.menu_bar a :active {
+    color: #f00;
+    text-decoration: none;
+}
+*/
+
+/*class nedeed  for Jquery*/
+.desc{
+    border: 1px solid green;
+    background-color:yellow;
+    color:red;
+}
+ /*class needed for Jquery*/
+ .as{
+  
+    background-color:orange;
+    color:rgb(128, 38, 0);
+}
+
+
+ 
+
+
+
+
+.drop_down_menu {
+    display: none;
+}
+
+
+.menu_bar ul li:hover .drop_down_menu {
+
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.menu_bar ul li:hover .drop_down_menu ul {
+    display: block;
+
+}
+
+
+.menu_bar ul li:hover .drop_down_menu ul li {
+    width: 150px;
+    padding: 10px;
+    /*border-bottom: 1px dotted #fff;*/
+    text-align: left;
+}
+
+
+
+
+
+
+.drop_down_menu_1 {
+
+    display: none;
+}
+
+.menu_bar ul li:hover .drop_down_menu_1 {
+
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.menu_bar ul li:hover .drop_down_menu_1 ul {
+    display: block;
+
+}
+
+
+.menu_bar ul li:hover .drop_down_menu_1 ul li {
+    width: 150px;
+    padding: 10px;
+    /*border-bottom: 1px dotted #fff;*/
+    text-align: left;
+}
+
+/*CSS Styles for header and footer-----------------*/
+
+.pageHeader h1 img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/*4*vo ovoj del za veb fontovi upotrebiv Hind, odnosno ke se odnesuva samo za h1 naslovite na sekoja strana*/
+.pageHeader h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #fff;
+    font-family: Hind;
+}
+
+.pageHeader {
+    background-image: url("../home/_image_logo/trolley.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 70px 80px;
+    border-radius: 5px;
+
+}
+
+
+
+.pageFooter p {
+    margin-top: 135px;
+    /*margin-left: 550px;*/
+    text-align: center;
+
+     
+} 
+
+/*4*dodaden stil*/
+.pageHeader h2 {
+    font-size: 18px;
+    color: rgb(154, 205, 50);
+    font-style: oblique;
+}
+
+/*4* dodaden prored*/
+
+
+section h3 {
+    font-size: 22px;
+    font-style: normal;
+    margin-left: 3px;
+    clear:both;
+    
+}
+
+
+
+
+/*4*dodadena dekoracija*/
+h4 {
+    font-size: 15px;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+
+}
+
+
+
+
+/* Other CSS styles for prizes, tag names,dates,images,articles-----------------------------------------------------------------------*/
+
+
+#topp {
+
+    bottom: 0px;
+    right: 20px;
+    
+
+
+}
+
+
+
+
+/* replaced with java script ---> onclick  SportShoes and Casual shoes
+.currency {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+*/
+
+.date {
+    color: rgb(255, 165, 0);
+    font-weight: bold;
+
+}
+
+
+.tag {
+    color: rgb(0, 128, 0);
+    font-weight: bold;
+
+
+}
+
+
+.Naming {
+    color: rgb(138, 43, 226);
+    font-weight: bold;
+}
+
+
+.description {
+    color: rgb(165, 42, 42);
+    font-weight: bold;
+
+}
+
+/*
+.pic img{
+float: left; 
+margin: 25px;
+}
+*/
+
+/*5* fiksna sirina na sliki na naslovna 300px*/
+
+
+
+.pic2 img {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin-right: 16px;
+    /*padding-right:  10px;*/
+    /*box-shadow: 10px 10px 5px 5px rgba(57, 66, 75, 0.8); */
+}
+
+
+
+
+.pic3 img {
+    max-width: 550px;
+    max-height: 250px;
+    /*box-shadow: 10px 10px 5px 5px rgba(57, 66, 75, 0.8);*/
+}
+
+
+.pic4 img {
+    max-width: 350px;
+    max-height: 190px;
+    box-shadow: 10px 10px 5px 5px rgba(66, 78, 90, 0.8);
+    float:left;
+    margin-right: 16px;
+}
+
+/*
+.offers  img{
+float: left;
+max-width: 105px;
+max-height: 105px;
+margin-right: 16px;
+}
+*/
+
+
+/*
+za prvite dva artickla na popust
+#article_1,#article_2{
+
+    color: #ffa500; 
+    font-weight: bold; 
+    font-size: 1.6em; 
+} */
+
+/*na parnite elementi*/
+
+section li:nth-child(even) {
+    color: #f0f;
+
+}
+
+/*na 4 nabrojuvanje da setirame nov stil,kaj artiklite
+ section li:nth-child(4){
+    color: #999; 
+
+ }
+*/
+
+
+section li:nth-child(5n) {
+    color: rgb(165, 42, 42);
+    text-decoration: line-through;
+
+}
+
+section li:nth-child(1n):first-letter {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.letterspacing {
+    letter-spacing: 5.2px;
+    font-weight: bold;
+}
+
+
+/*--------CSS Styles for googleMap, SignUp, Contact us-----------------------------*/
+
+
+
+.container text {
+    color: rgb(138, 43, 226);
+}
+
+
+
+
+.container {
+
+    max-width: 350px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.container h2 {
+    font-size: 26px;
+    font-style: normal;
+    color: rgb(28, 27, 26);
+    font-weight: bold;
+    border-bottom: 1px;
+
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+
+.container2 {
+    max-width: 850px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: -540px;
+    margin-left: 35rem;
+    justify-content: center;
+}
+
+
+
+/*
+
+.container3 {
+    width: 250px;
+    height: 190px;
+    border-style:dotted;
+    float: right;
+    border-radius: 5px;
+    margin-top: 195px;
+    padding: 2px;
+
+}
+*/
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+
+}
+
+
+input[type=button] :hover {
+
+    cursor: pointer;
+    border: 1px;
+    border-style: solid;
+    background-color: #4af;
+}
+
+
+h3+.location {
+    color: rgb(255, 69, 0);
+    font-weight: bold;
+}
+
+
+
+section a:nth-child(odd):hover {
+    background-color: rgb(255, 165, 0);
+}
+
+section a:nth-child(even):hover {
+    background-color: rgb(255, 0, 255);
+    
+}
+
+
+
+
+
+/*grupen selektor za input elementite da imaat ista boja* ovdeka se misli na naslovite for label*/
+.container div>label,
+.container3 div>label {
+
+    color: #999;
+}
+
+
+
+input[type=text],
+input[type=password],
+input[type=tel],
+option[value=""] {
+    border: 1px solid #4af;
+
+
+}
+
+select {
+    border: 1px solid #4af;
+}
+
+textarea {
+    border: 1px solid #4af;
+
+}
+
+#errorMessage{
+  color: #f00;
+}
+#errorMessage1{
+    color:#f00;
+}
+
+#errorMessage2{
+    color:#f00;
+}
+
+#errorMessage3{
+    color:#f00;
+}
+
+/*Other Styles for images -Sport Shoes,Casual Shoes-----------------------------------*/
+
+.container4 {
+    float: left;
+    padding-left: 4px;
+    margin-bottom: 5px;
+
+}
+
+
+.banner1{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/new.jpg"), url("../shoes/Galery_images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 5px,left top;
+    margin-bottom: 45px;
+    padding: 2px;
+    
+    
+    
+    
+}
+
+.banner1 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+   
+}
+
+
+.banner2{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner2.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+}  
+
+
+
+
+.banner2 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-top: 385px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    
+}
+
+
+.container5 {
+    margin-left: 500px;
+    margin-top: -63px;
+    margin-bottom: 5px;
+    
+
+}
+
+.banner3{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner3.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+}  
+
+
+
+.banner3 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+.banner4{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner4.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+}  
+
+
+
+.banner4 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+
+
+.container6 {
+    float: left;
+    padding-left:4px;
+    margin-bottom: 15px;
+    
+}
+
+
+.banner5{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner5.jpg");
+    background-repeat: no-repeat;
+    padding:2px;
+    
+
+    
+}
+
+
+
+.banner5 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top:385px;
+}
+
+.banner6{
+    width: 450px;
+    height: 382px;
+    background-image:url("../shoes/Galery_images/new.jpg"), url("../shoes/Galery_images/banner6.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+    
+}
+
+.banner6 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+    
+}
+
+
+.container7 {
+    margin-left: 500px;
+    margin-top: -3px;
+    margin-bottom: 15px;
+    
+}
+
+
+.banner7{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner7.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    
+}
+
+
+.banner7 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top:385px;
+}
+
+
+.banner8{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner8.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+}
+
+
+.banner8 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+
+
+
+
+.container8 {
+    float: left;
+    padding-left:4px;
+    margin-bottom: 5px;
+
+}
+
+
+.banner9{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner9.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    
+}
+
+
+
+.banner9 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+    
+}
+
+
+
+.banner10{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner10.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+    
+}
+
+
+
+.banner10 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+    
+}
+
+
+
+.container9 {
+    margin-left: 500px;
+    margin-top: -6px;
+}
+
+.banner11{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner11.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    
+}
+
+
+
+
+.banner11 figcaption{
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top:385px;
+    
+    
+
+}
+
+
+.banner12{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/new.jpg"),url("../shoes/Galery_images/banner12.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+    
+}
+
+
+
+
+.banner12 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+    margin-bottom: 35px;
+    
+}
+
+
+
+
+
+
+.container10 {
+    float: left;
+    padding-left: 4px;
+    margin-bottom: 45px;
+
+}
+
+.banner13{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/new.jpg"),url("../shoes/Galery_images/banner13.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    
+    
+}
+
+
+.banner13 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+
+
+.banner14{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner14.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+    
+}
+
+
+
+.banner14 figcaption {
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+
+.container11 {
+
+    margin-left: 480px;
+    margin-bottom: 45px;
+}
+
+.banner15{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner15.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    
+    
+}
+
+
+
+.banner15 figcaption{
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+.banner16{
+    width: 450px;
+    height: 382px;
+    background-image: url("../shoes/Galery_images/banner16.jpg");
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin-top: 80px;
+    
+}
+
+
+
+.banner16 figcaption{
+    font-size: 12px;
+    line-height: -0.15px;
+    padding-bottom: 45px;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, .4);
+    padding-top: 385px;
+}
+
+
+/*-----------------------------------------------Java script - onclick changing styles --------------------*/
+
+
+
+
+.site-paragraph{
+
+    color: #fff;
+    font-size: 1em;
+    text-align: right;
+}
+
+
+.important-content{
+  color:brown;
+  font-size: 1em;
+  
+
+
+}
+
+
+/*-----------------------------------Java Script table background change---------------------------------------------*/
+
+table, th, td {
+    border: 2px solid black;
+    margin-top: 15px;
+}
+/*neparno*/
+.odd {
+background-color: brown;
+
+
+}
+
+/*parno*/
+.even {
+    background-color: white;
+
+
+}
+
+/*------------------------Java script increase, decrease and add color buttons for div--------------------------*/
+
+
+
+#change{
+
+    width: 100px;
+    height:100px;
+    transition: width 2s, height 4s;
+    border-style: dotted;
+}
+
+/*---------------------------Java script progress bar styles------------------------------------------*/
+
+#myProgress{
+    height: 30px;
+    width:30%;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #0066ff;
+    background-color: lightgray;
+    margin-top:15px;
+}
+#myBar{
+height: 30px;
+width: 0%;
+background-color: #04AA6D;
+
+}
+
+/*---------------------------Jquery-------------------------------------------*/
+
+
+.blue {
+    background-color: yellowgreen;
+
+}
+
+
+#location {
+ 
+   background-color: #999;
+   width:250px;
+   height:250px;
+   border: 1px solid black;
+   font-size: 18px;
+
+
+}
+
+
+
+#location2{
+    margin-top: -250px;
+    margin-left:305px;
+    background-color: #999;
+    width:250px;
+    height:250px;
+    border: 1px solid black;
+    font-size: 18px;
+
+
+}
+
+
+#animation{
+    background-color:blueviolet;
+    height:100px;
+    width:100px;
+    position:relative;
+    border: 1px solid black;
+}
+
+
+#ex1{
+    background-color: #999;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    font-size: 18px;
+
+}
+
+
+#ex2{
+    margin-top: -200px;
+    margin-left: 256px;
+    background-color: #999;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    font-size: 18px; 
+}
+
+
+#ex3{
+    margin-top: -200px;
+    margin-left: 510px;
+    background-color: #999;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    font-size: 18px; 
+
+}
+
+
+#ex4{
+    margin-top: -200px;
+    margin-left: 770px;
+    background-color: #999;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    font-size: 18px; 
+
+
+
+}
+
+.Discount {
+
+    color:Blue;
+    font-style:unset;
+}
+
+
+
+/*-----------------------------Video Progress bar && buttons-------------------------*/
+#progress[value] {
+
+    
+     margin-left: 15px;
+     border-radius: 16px;
+     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+     height: 18px;
+     width: 26%
+}
+
+
+#play{
+
+    margin-left: 15px;
+}
